@@ -1,0 +1,88 @@
+section {
+  padding: 40px 0; }
+
+.hero-heading {
+  color: #333;
+  font-weight: 500; }
+
+.view-container {
+  min-height: 100vh; }
+
+.heading-1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.2; }
+
+.heading-2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2; }
+
+.heading-3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.color-1 {
+  color: white; }
+
+.color-1-bg {
+  background-color: rgba(239, 239, 247, 0.85); }
+
+.color-2 {
+  color: rgba(239, 239, 247, 0.85); }
+
+.color-2-bg {
+  background-color: rgba(239, 239, 247, 0.85); }
+
+.color-3 {
+  color: #c5d1eb; }
+
+.color-3-bg {
+  background-color: #c5d1eb; }
+
+.color-4 {
+  color: #92afd7; }
+
+.color-5 {
+  color: #5a7684; }
+
+ul.publications-list {
+  list-style: none;
+  padding: 0; }
+
+ul.section-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px; }
+  ul.section-links > li {
+    display: block;
+    line-height: 4.2em;
+    cursor: pointer; }
+    ul.section-links > li > a {
+      color: #323b43;
+      margin: 0px 0px;
+      font-size: 17px;
+      padding: 11px 104px;
+      background: #fff;
+      font-weight: 600;
+      text-decoration: none; }
+      ul.section-links > li > a:hover {
+        color: #323b43; }
+    ul.section-links > li:nth-child(2) a {
+      padding: 11px 90px; }
+    ul.section-links > li:nth-child(1) a {
+      padding: 11px 62px; }
+    ul.section-links > li:nth-child(4) a {
+      padding: 11px 90px; }
+    ul.section-links > li:nth-child(5) a {
+      padding: 11px 62px; }
+
+.flex {
+  display: flex; }
+
+.flex-colun {
+  flex-direction: column; }
+
+.flex-align-start {
+  align-items: flex-start; }

@@ -1,0 +1,46 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="heading-2 mb-4">{{ section.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {{ section.content }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {% assign events = site.data.events | sort: 'date' %}
+        {% for event in events reversed %}
+          <div class="card mt-1">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="heading-3 mb-2">{{ event.date | date_to_string }}</div>
+                </div>
+                <div class="col-md-9">
+                  <div class="mb-2">
+                    <h4 class="card-title mb-0">{{ event.title }}</h4>
+                  </div>
+                  <p>{{ event.description }}</p>
+                  {% if event.resources != null %}
+                    <div class="resources">
+                      <h6>Resources</h6>
+                      {% for resource in event.resources %}
+                        <a href="{{ resource.url }}" target="_blank">
+                          {{ resource.title }}
+                        </a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

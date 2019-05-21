@@ -1,0 +1,39 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="heading-2 mb-4">{{ section.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="publications-list">
+          {% assign publications = site.data.publications | sort: 'year' %}
+          {% for publication in publications reversed %}
+            <li>
+              <div class="card mt-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h6 class="card-title">
+                        <a href="{{ publication.link }}" target="_blank">
+                          {{ publication.title }}
+                        </a>
+                      </h6>
+                      <span class="text-muted">{{ publication.journal }}</span>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="text-right">
+                        <span>{{ publication.year }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
