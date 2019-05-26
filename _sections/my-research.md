@@ -1,7 +1,7 @@
 ---
 order: 2
 title: "My Research"
-include: my-research.html
+include: generic-section.html
 ---
 Lorem ipsum *dolor* **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
