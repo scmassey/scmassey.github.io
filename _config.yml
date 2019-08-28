@@ -1,8 +1,8 @@
 title: Susan Christine Massey | DrMathy
 baseurl: /drmathy
-url: http://emrys-golden.github.io
+url: http://scmassey.github.io
 markdown: kramdown
-github_username: emrys-golden
+github_username: scmassey
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
