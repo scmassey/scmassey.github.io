@@ -6,8 +6,7 @@ include: generic-section.html
 [//]: # (Contact)
 
 If you are interested in working with me/collaborating, please reach out: <susan@drmathy.me>
-I can also be found on the following platforms
 
-[//]: # (Icon links to github, twitter, & google scholar or name them?)
+[//]: # (Could also add icon links to github, twitter, linkedin, research gate - & google scholar?- here)
 
-Additionally, if you would like to know more about my work than is listed here or if you encounter an error on this site, contact: <me@drmathy.me>
+For website feedback (e.g., to report a linking error), please send a message to: <me@drmathy.me>
