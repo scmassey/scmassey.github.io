@@ -1,0 +1,10 @@
+- title: About
+  url: /about-me.html
+-title: Research
+  url: my-research.html
+- title: Publications
+  url: /publications.html
+- title: Events
+  url: /events.html
+- title: Contact Me
+  url: /contact.html
