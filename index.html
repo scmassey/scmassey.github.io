@@ -8,7 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
-  <nav id="navbar" class="collapse navbar-collapse">
+  <!-- <nav id="navbar" class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
         {% assign links = site.data.navigation %}
         {% for link in links %}
@@ -38,8 +38,37 @@
             {% endif %}
         {% endfor %}
     </ul>
+</nav> -->
+  <body data-spy="scroll" data-target="#navbar-example">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">DrMathy</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#About">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Research">Research</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Publications">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Events">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Contact">Contact Me</a>
+    </li>
+    <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#one">one</a>
+        <a class="dropdown-item" href="#two">two</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#three">three</a>
+      </div> -->
+    </li>
+  </ul>
 </nav>
-  <body>
     <main class="view-container">
       {% include hero.html %}
 
