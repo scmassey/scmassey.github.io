@@ -41,6 +41,23 @@ section {
   font-weight: 600;
 }
 
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    line-height: 30px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li.active a {
+    color: #ffffff;
+}
+
+body {
+  position: relative;
+}
+
 .hero-heading {
   color: #333;
   font-weight: 500;

@@ -1,7 +1,7 @@
 ---
 order: 5
 title: "Contact Me"
-include: generic-section.html
+include: contact.html
 ---
 [//]: # (Contact)
 
