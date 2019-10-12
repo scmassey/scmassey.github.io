@@ -1,7 +1,7 @@
 ---
 order: 2
 title: "My Research"
-include: generic-section.html
+include: my-research.html
 ---
 [//]: # (## Current Research)
 #### Assessing the impact of drug delivery versus sensitivity in glioblastoma treatment response
