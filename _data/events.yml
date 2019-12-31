@@ -3,39 +3,44 @@
   location: JW Marriott Desert Ridge Hotel, Phoenix, AZ
   description: Presenting a poster on results from analysis of magnetic resonance image-localized histology specimens grouped by patient sex.
   resources:
-    # - title: Sex differences in imaging-based assessment of glioblastoma invasion
-    #   url: 
+     - title: Sex differences in imaging-based assessment of glioblastoma invasion
+       url: https://drive.google.com/open?id=155wFFN6iLrJ6_cFWtfPCsYAzVop9_fqY
 
 - title: Women in Computational Biology Janelia Conference
   date: 2019-11-10
   location: Howard Hughes Medical Institute, Janelia Research Campus, Ashburn, VA
-  description: Poster presentation of our Treatment Exposure Sensitivity model of treated brain tumor growth incorportating the contributions of both drug distribution and resistance. Includes an update using a Bayesian approach (instead of averaging) for passing parameters determined from untreated controls data.
+  description: Poster presentation of our Treatment Exposure Sensitivity model of treated brain tumor growth incorportating the contributions of both drug distribution and resistance.
   resources:
-    # - title: Quantifying drug distribution and response dynamics in experimental glioblastoma
-    #   url: 
+    - title: Quantifying drug distribution and response dynamics in experimental glioblastoma
+      url: https://drive.google.com/open?id=1aJ7E4RoMuFQaZFS4LHxeziyPbDg2oj_B
 
 - title: 7th International Conference on Mathematical Modeling and Analysis of Populations in Biological Systems
   date: 2019-10-12
   location: Arizona State University, Tempe, AZ
-  description: Giving a talk and presenting a poster
+  description: Gave a talk on combining ML and mechanistic models and presented a poster on behalf of a labmate
   resources:
-    # - title: 'Joining Forces: Combining Machine Learning and Mechanistic Models to Predict Tumor Cell Density'
-    #   url: 
-    # - title:  Quantifying drug distribution and response dynamics in experimental glioblastoma
-    #   url: 
+    - title: 'Joining Forces: Combining Machine Learning and Mechanistic Models to Predict Tumor Cell Density'
+      url: https://drive.google.com/open?id=16-GeNiUC6Zn0xBYcTH53TV_nynDyHjs1
+    - title:  Quantifying drug distribution and response dynamics in experimental glioblastoma
+      url: https://drive.google.com/open?id=1aJ7E4RoMuFQaZFS4LHxeziyPbDg2oj_B
 
 - title: Annual Meeting of the Society for Mathematical Biology
   date: 2019-07-22
   location: Université de Montréal, Montreal, QC
-  description: I will present results from the sentivity analysis of our model exploring resistance and blood-brain barrier penetrance of an investigational drug.
+  description: Presented results from the sentivity analysis of our model exploring resistance and blood-brain barrier penetrance of an investigational drug.
   resources:
     - title: Quantifying drug distribution and response dynamics in experimental glioblastoma
-      url: https://drive.google.com/file/d/1gMRCb67_k5kWSOnhrEyWezG1ipYpnovf/view?usp=sharing
+      url: https://drive.google.com/open?id=1_pIrOM4OGsik8k5SMKLYicS3sPs4F_MV
 
 - title: q-bio Summer School
   date: 2019-07-15
   location: Rice University, Houston, TX
-  description: I will be giving a research lecture and giving a tutorial on Latin Hypercube Sampling for sensitivity analysis. 
+  description: Presented a research lecture and gave a tutorial on Latin Hypercube Sampling for sensitivity analysis. 
+  resources:
+    - title: 'Latin Hypercube Sampling tutorial (and motivating example from a model of drug response in glioma)'
+      url: https://drive.google.com/open?id=1lUGDUVvjZOOej7uko7hpxTa4DJcozLDN
+    - title:  Multi-scale model of paracrine PDGF-driven glioma growth
+      url: https://drive.google.com/open?id=1qF1gumkBJm826UmPUTIWvvPgUy4IDfU8
 
 - title: Inagural Cancer Systems Biology Consortium West Coast Symposium
   date: 2019-05-15
@@ -51,7 +56,7 @@
   description: Presented a poster summarizing the most recent update on work the different effects of drug sensitivity and variability in drug in heterogeneous tumors on noninvasive imaging.
   resources:
   - title: Mathematical model of PDX tumor growth distinguishes differential sensitivity to EGFR inhibitor therapy and BBB effect
-    url: https://drive.google.com/file/d/1WPOQnFKWKXoAre1vMIAEGbO8hPy8uoBu/view?usp=sharing
+    url: https://drive.google.com/open?id=1VizkbVsP93cM2FuTYXdePZbQ9PysuR14
 
 - title: Joint Physical Sciences-Oncology Network and Cancer Systems Biology Consortium Annual Investigators Meeting
   date: 2018-09-22
@@ -64,7 +69,7 @@
   description: I organized a mini symposium on Data--Driven Mechanistic Cancer Models featuring speakers Trachette Jackson, Kit Curtius, Lee Curtin, Jill Gallaher, and myself. My talk (slides linked below) featured some work I and an undergraduate assistant were beginning for investigating ways to assess drug blood-brain barrier pentetrability from noninvasive imaging data.
   resources:
   - title: Glioblastoma invasiveness may predict response to therapies with high or low blood brain barrier penetrability
-    url: https://drive.google.com/file/d/18lXNus3iWPjmsikxoXZDf22M8-i3Leh9/view?usp=sharing
+    url: https://drive.google.com/open?id=1MLAA8rpk8j3tw8CZjmAfnG-YoS79uxA1
 
 - title: Annual Meeting of the Society for Neuro-Oncology
   date: 2017-11-16
@@ -72,4 +77,4 @@
   description: Highlighted an analysis of radiographic changes during adjuvant temozolomide therapy for glioblastoma.
   resources:
   - title: Change in extent of glioblastoma invasion following adjuvant temozolomide is driven by effect on non-enhancing tumor
-    url: https://drive.google.com/file/d/12eCc6Sv3rkgVDa-bs6RMxHLlV4KnqFGb/view?usp=sharing
+    url: https://drive.google.com/open?id=1lEGB689806-WHSJ9z1WOKtZTtp-DNq9x

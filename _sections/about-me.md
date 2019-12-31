@@ -4,17 +4,8 @@ title: "About Me"
 include: about-me.html
 image-url: ./assets/images/Massey_self-portrait.jpg
 ---
-[//]: # (Currently aiming for high level, who I boil down to professionally, as opposed to a short bio. But want feedback on effectiveness from others.)
+I am an applied mathematician using a combination of data analysis methods and mechanistic differential equation modeling, primarily in biomedical research. My passion is translating across domains, formalizing concepts mathematically to uncover new understanding in scientific areas, as well as helping other scientists and mathematicians to understand each others' domain terminology. In my current position at Mayo Clinic, I work with cancer biologists, clinical neuro-oncologists and neuro-surgeons, as well as other applied mathematicians, bioinformaticists, and bioengineers, in a collective effort to gain new insights for treating glioblastoma. 
 
-#### *Solving biological puzzles with mathematical tools.*
+As a former patient caregiver, I am also interested in philosophy of medicine and support efforts toward improved quality of life and early incorporation of palliative care and social support for patients and their families.
 
-Math and medicine have been my primary intellectual interests since childhood. As a former patient caregiver, I am deeply passionate about making discoveries that improve clinical care using the unique lens that comes from the intersection of these two knowledge bases.
-
-I earned my Ph.D. in Applied Mathematics from the University of Washington in 2016, where I focused on mathematical neuro-oncology for my dissertation, [*Multi-scale modeling of paracrine PDGF-driven glioma growth and invasion*](http://hdl.handle.net/1773/38058). During my graduate studies, I spent six months in a research pathology lab, learning to culture and retrovirally transduce cells, perform Western blots, *and more!*,  to better understand the perspective of my scientific collaborators.
-
-[//]: # (following a B.S. in Mathematics in 2008.)
-[//]: # (studying hepatocellular carcinoma-liver cancer)
-
-Further details about my educational background, awards, teaching and mentorship can be found in my [CV](https://drive.google.com/file/d/12hT76A2lRVi6AzYXTV1mY1bBop6ray3I/view?usp=sharing).
-
-[//]: # (Also want icon links to github, twitter, & google scholar if it has one)
+I earned my Ph.D. in Applied Mathematics from the University of Washington in 2016. Further details about my education, training, awards, teaching and mentorship can be found in my [CV](https://drive.google.com/open?id=1QrdhDdS6prloPvgqMRKkRCua_FznYopZ).
