@@ -14,6 +14,50 @@ section {
   padding: 40px 0;
 }
 
+.navbar {
+  background-color: $color1;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: $color5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  background-color: $color2;
+  color: #333;
+  font-weight: 600;
+}
+
+.navbar a.active {
+  background-color: $color5;
+  color: $color1;
+  font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    line-height: 30px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li.active a {
+    color: #ffffff;
+}
+
+body {
+  position: relative;
+}
+
 .hero-heading {
   color: #333;
   font-weight: 500;
@@ -124,12 +168,16 @@ ul.section-links {
   display: flex;
 }
 
-.flex-colun {
-  flex-direction: column;
+.flex-row {
+  flex-direction: row;
 }
 
-.flex-align-start {
-  align-items: flex-start;
+.flex-align-center {
+  align-items: flex-center;
+}
+
+.flex-wrap {
+  flex-wrap: nowrap;
 }
 
 .portrait {

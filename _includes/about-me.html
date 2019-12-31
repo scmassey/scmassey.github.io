@@ -1,18 +1,20 @@
 <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 text-center d-none d-lg-block d-xl-block">
-        <img class="portrait" src="{{ section.image-url }}" alt="" />
-      </div>
-      <div class="col-lg-7">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="heading-2 mb-4">{{ section.title }}</h2>
-          </div>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text-center d-none d-lg-block d-xl-block">
+          <img class="portrait" src="{{ section.image-url }}" alt="" />
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            {{ section.content }}
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-md-12" id="About">
+              <h2 class="heading-2 mb-4">{{ section.title }}</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              {{ section.content }}
+            </div>
           </div>
         </div>
       </div>

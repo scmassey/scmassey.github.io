@@ -6,22 +6,97 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
-  <body>
+  <!-- <nav id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+        
+        
+            
+            
+            
+                <li class="">
+                    <a href="http://localhost:4000/drmathy/about-me.html">About</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="http://localhost:4000/drmathymy-research.html">Research</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="http://localhost:4000/drmathy/publications.html">Publications</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="http://localhost:4000/drmathy/events.html">Events</a>
+                </li>
+            
+        
+            
+            
+            
+                <li class="">
+                    <a href="http://localhost:4000/drmathy/contact.html">Contact Me</a>
+                </li>
+            
+        
+    </ul>
+</nav> -->
+  <body data-spy="scroll" data-target="#navbar-example">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">DrMathy</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#About">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Research">Research</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Publications">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Events">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Contact">Contact Me</a>
+    </li>
+    <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#one">one</a>
+        <a class="dropdown-item" href="#two">two</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#three">three</a>
+      </div> -->
+    </li>
+  </ul>
+</nav>
     <main class="view-container">
       <section class="color-2-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="heading-1 hero-heading">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="heading-1 hero-heading">
   Susan Christine Massey, PhD
 </h1>
 
-      </div>
-      <div class="row">
+    </div>
+      <!-- <div class="row">
         <div class="col-lg-6">
           <div class="row">
             <div class="col-md-12">
-              <ul class="section-links flex flex-column flex-align-start">
+              <ul class="section-links flex flex-row flex-align-center flex-wrap">
                 <li>
                   <a href="">About Me</a>
                 </li>
@@ -37,9 +112,16 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-    </div>
+<!--     </div>
+        <div class="navbar" id="navbar">
+      <a class="active" href="">About DrMathy</a>
+      <a href="">Research</a>
+      <a href="">Publications</a>
+      <a href="">Events</a>
+      <a href="">Contact Me</a>
+    </div> -->
   </section>
 
 
@@ -47,17 +129,19 @@
       
         
           <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 text-center d-none d-lg-block d-xl-block">
-        <img class="portrait" src="./assets/images/Massey_self-portrait.jpg" alt="" />
-      </div>
-      <div class="col-lg-7">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="heading-2 mb-4">About Me</h2>
-          </div>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text-center d-none d-lg-block d-xl-block">
+          <img class="portrait" src="./assets/images/Massey_self-portrait.jpg" alt="" />
         </div>
+
+       <div class="col-lg-7">
+          <div class="row">
+            <div class="col-md-12" id="About">
+              <h2 class="heading-2 mb-4">About Me</h2>
+            </div>
+          </div>                      
         <div class="row">
           <div class="col-md-12">
             <p>I am an applied mathematician using a combination of data analysis methods and mechanistic differential equation modeling, primarily in biomedical research. My passion is translating across domains, formalizing concepts mathematically to uncover new understanding in scientific areas, as well as helping other scientists and mathematicians to understand each others’ domain terminology. In my current position at Mayo Clinic, I work with cancer biologists, clinical neuro-oncologists and neuro-surgeons, as well as other applied mathematicians, bioinformaticists, and bioengineers, in a collective effort to gain new insights for treating glioblastoma.</p>
@@ -66,13 +150,13 @@
 
 <p>I earned my Ph.D. in Applied Mathematics from the University of Washington in 2016. Further details about my education, training, awards, teaching and mentorship can be found in my <a href="https://drive.google.com/open?id=1QrdhDdS6prloPvgqMRKkRCua_FznYopZ">CV</a>.</p>
 
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
         
       
         
@@ -104,7 +188,7 @@
           <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" id="Publications">
         <h2 class="heading-2 mb-4">Publications</h2>
       </div>
     </div>
@@ -417,7 +501,7 @@
           <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" id="Events">
         <h2 class="heading-2 mb-4">Events</h2>
       </div>
     </div>
@@ -700,7 +784,7 @@
         
           <section class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12" id="Contact">
       <h2 class="heading-2 mb-4">Contact Me</h2>
     </div>
   </div>
